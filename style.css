@@ -1,0 +1,102 @@
+/* Universal selector */
+* {
+ margin: 4px; 
+ background-color: rgb(201, 196, 196);  
+}
+
+/* Class selector */
+.image {
+    margin-left: 30px;
+    margin-top: 30px;
+    align-content: center;    
+}
+
+.input label {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+/* Type Selector, here targets tags */
+
+body h1 {
+    padding: 10px 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: rgb(24, 24, 23);
+    line-height: 20px;
+}
+
+body h2 {
+    padding: 30px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(149, 140, 11);
+    line-height: 25px;
+}
+
+body p {
+    padding: 30px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(12, 11, 1);
+    line-height: 20px;
+}
+
+input {
+    padding: 8px 8px 8px;
+    border-radius: 4px;
+    }
+
+@media only screen and (min-width: 768px) {
+    .image {
+        padding-bottom: 20px;
+        padding-left: 30px;
+
+        body h2 {
+            margin: 0 auto;
+            padding: 20px 0px 0px;
+        }
+
+        body h2 {
+            margin: 0 auto;
+            padding: 20px 0px 0px;
+        
+        }
+        body p {
+            margin: 0 auto;
+            padding: 20px 0px 0px;
+        }  
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .image {
+        padding-bottom: 20px;
+        padding-left: 30px;
+        width: 600px;
+
+        body h2 {
+            margin: 0 auto;
+            padding: 20px 0px 0px;
+            font-size: 40px;
+            line-height: 38px;
+        
+        }
+
+        body h2 {
+            margin: 0 auto;
+            padding: 20px 0px 0px;
+            font-size: 32px;
+            line-height: 30px;
+        
+        }
+        body p {
+            margin: 0 auto;
+            padding: 20px 0px 0px;
+            font-size: 26px;
+            line-height: 24px;
+           
+
+        }
+    }
+}
